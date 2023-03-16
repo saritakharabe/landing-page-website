@@ -17,27 +17,34 @@
             </ul>
         </nav>
     </header>
-
-    <section class="image">
-        <h2>My new website</h2>
-        <img src="./assets/images/logo.jpeg" alt="helping-hand">
-        <p> Welcome to my first page </p>
-    </section>
-
-    <section class="conatct-form">
-        <h3>Contact Me</h3>
-        <form>
-            <label for="name"> Name:</label>
-            <input type="text" id="name" name="name"><br><br>
-            <label for="emial"> Email </label>
-            <input type="email" id="email" name="email"><br>
-            <button type="button">Submit </button>
-        </form>
-    </section>
-
-
-    <footer>
-        <p>© 2023 My new website production</p>
+    <main>
+        <h1 class="text-center">My New Website</h1>
+        <figure>
+          <img src="./assets/images/logo.jpeg" alt="Graphic with Coming Soon text">
+          <figcaption class="text-center">Helping-hands</figcaption>
+        </figure>
+        <section id="contact">
+          <h2 class="text-center">Contact Me</h2>
+          <form>
+            <ul>
+              <li>
+                <label class="text-right" for="name">Name:</label>
+                <input type="text" id="name" name="user-name">
+              </li><br>
+              <li>
+                <label class="text-right" for="email">Email:</label>
+                <input type="text" id="email" name="user-email">
+              </li>
+            </ul>
+            <div class="text-center">
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </section>
+      </main>
+    
+    <footer >
+        © 2023 My new website production
     </footer>
 </body>
 
